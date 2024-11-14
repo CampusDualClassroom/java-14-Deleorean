@@ -1,11 +1,15 @@
 package com.campusdual.classroom;
 
 public class Person {
-	protected String name;
-	protected String surname;
+    protected String name;
+    protected String surname;
 
-	public Person(String name, String surname) {
-		this.name = name;
-		this.surname = surname;
-	}
+    public Person(String name, String surname) {
+        this.name = name;
+        this.surname = surname;
+    }
+
+    public void getDetails() {
+        System.out.println("Esta persona se llama " + name + " " + surname);
+    }
 }
